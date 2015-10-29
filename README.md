@@ -380,4 +380,4 @@ sdkbox::PluginAdColony::setListener(this);
 		- チェック
 - Q: テスト切り替えの際の連絡はいつしたら良いか？
 - A: ストア通過後(iOS)に、またはリリース前(Android)に担当者へ配信切り替えのご連絡をして下さい。
-- 
+
