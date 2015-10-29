@@ -11,7 +11,7 @@
 * [Step 2: Configuration](#step-2-configuration)
 * [Step 3: Usage](#step-3-usage)
 * [Manual Integration](#manual-integration)
-* [よくある質問](#よくある質問)
+* [よくある質問](#qa-section)
     * [基本情報に関して](#基本情報に関して)
     * [SDK仕様に関して](#sdk仕様に関して)
     * [動画再生に関して](#動画再生に関して)
@@ -325,7 +325,7 @@ sdkbox::PluginAdColony::setListener(this);
 
 **注意：** Proguardはリリース版のビルドにしか利用することが出来ません。
 
-##よくある質問
+##<a id="qa-section"></a>よくある質問
 ###基本情報に関して
 - Q:各設定情報はどんな意味ですか
 - A:
@@ -336,7 +336,7 @@ sdkbox::PluginAdColony::setListener(this);
 	- **UDID**: 端末に紐づく固有のIDです。
 		*UDIDはAppleで取得を禁じられているため、AdColonyでは取得しておりません。*
 
-###<a id="SDK仕様に関して">SDK仕様に関して</a>
+###SDK仕様に関して
 - Q: 縦画面の再生は可能か？
 - A: AdColonyでは、スキップなし横画面フルサイズの再生となります。
 
