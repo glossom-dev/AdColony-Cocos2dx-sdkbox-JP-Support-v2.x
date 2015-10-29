@@ -6,8 +6,8 @@
 **参照**：[http://cocos2d-x.org/sdkbox/adcolony](http://cocos2d-x.org/sdkbox/adcolony)
 
 ##Contents##
-* [Step 0: Prerequisites](#prerequisites)
-* [Step 1: Integration](#integration)
+* [Step 0: Prerequisites](#step-0-prerequisites)
+* [Step 1: Integration](#step-1-integration)
 * [Step 2: Configuration](#step-2-configuration)
 * [Step 3: Usage](#step-3-usage)
 * [Manual Integration](#manual-integration)
