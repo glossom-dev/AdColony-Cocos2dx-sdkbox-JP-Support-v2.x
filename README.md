@@ -12,10 +12,10 @@
 * [Step 3: Usage](#step-3-usage)
 * [Manual Integration](#manual-integration)
 * [よくある質問](#qa-section)
-    * [基本情報に関して](#基本情報に関して)
-    * [SDK仕様に関して](#sdk仕様に関して)
-    * [動画再生に関して](#動画再生に関して)
-    * [ストア申請に関して](#ストア申請に関して)
+    * [基本情報に関して](#qa-basic)
+    * [SDK仕様に関して](#qa-sdk)
+    * [動画再生に関して](#qa-play-video)
+    * [ストア申請に関して](#qa-store-submit)
 
 
 ##Step 0: Prerequisites##
@@ -326,7 +326,7 @@ sdkbox::PluginAdColony::setListener(this);
 **注意：** Proguardはリリース版のビルドにしか利用することが出来ません。
 
 ##<a id="qa-section"></a>よくある質問
-###基本情報に関して
+###<a id="qa-basic"></a>基本情報に関して
 - Q:各設定情報はどんな意味ですか
 - A:
 	- **App ID**: こちらは各アプリを指します。
@@ -336,7 +336,7 @@ sdkbox::PluginAdColony::setListener(this);
 	- **UDID**: 端末に紐づく固有のIDです。
 		*UDIDはAppleで取得を禁じられているため、AdColonyでは取得しておりません。*
 
-###SDK仕様に関して
+###<a id="qa-sdk"></a>SDK仕様に関して
 - Q: 縦画面の再生は可能か？
 - A: AdColonyでは、スキップなし横画面フルサイズの再生となります。
 
@@ -368,7 +368,7 @@ sdkbox::PluginAdColony::setListener(this);
 		- [上記以外に、他にレスポンスされる場合]
 		AdColonyは定期的に再送信行います。異常な場合以外は、こちら利用は控えて下さい。
 
-###動画再生に関して
+###<a id="qa-play-video"></a>動画再生に関して
 - Q: 動画再生ができない場合どうすればいいですか
 - A: 下記をチェックしてください。
 	- 正しいIDは使われているか？
@@ -395,7 +395,7 @@ sdkbox::PluginAdColony::setListener(this);
 	- ユーザー数が極端に少ない、リリース前もしくはリリース直後
 	- androidの場合、GoogleのAdvertising IDを取得するため、プロジェクトの中にGoogle Play Services 4.0+ を追加してください。
 
-###ストア申請に関して
+###<a id="qa-store-submit"></a>ストア申請に関して
 - Q: App内で広告を消した方が良いか(iOS)？
 - A: 審査する場合も、広告を出してください。IDFAについては下記をチェックを必ず行って下さい。
 	- Does this app use the Advertising Identifier (IDFA)?
