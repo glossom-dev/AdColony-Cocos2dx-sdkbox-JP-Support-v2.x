@@ -336,7 +336,7 @@ sdkbox::PluginAdColony::setListener(this);
 	- **UDID**: 端末に紐づく固有のIDです。
 		*UDIDはAppleで取得を禁じられているため、AdColonyでは取得しておりません。*
 
-###SDK仕様に関して
+###<a id="SDK仕様に関して">SDK仕様に関して</a>
 - Q: 縦画面の再生は可能か？
 - A: AdColonyでは、スキップなし横画面フルサイズの再生となります。
 
